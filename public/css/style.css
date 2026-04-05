@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif ;
+  background-color: #f5f5f5;
+}
+
+/* HEADER */
+.header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+/* BANNER */
+.banner img {
+  width: 80%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+    margin: 10px auto;
+}
+
+/* SOBRE */
+.sobre {
+  padding: 20px;
+  text-align: center;
+}
+
+/* PROJETOS */
+.projetos {
+  padding: 30px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FORM */
+.formulario {
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
